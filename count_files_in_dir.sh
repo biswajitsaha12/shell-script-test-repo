@@ -9,7 +9,7 @@ fi
 
 for item in $dir_path/*
 do
-  if [ -e "$item" ]
+  if [ -f "$item" ]
   then
     ((count++))
   fi
